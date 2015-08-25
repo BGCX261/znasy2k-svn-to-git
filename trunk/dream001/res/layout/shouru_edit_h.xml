@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_height="fill_parent" android:layout_width="fill_parent"
+    android:background="@drawable/bg_480_320_cd_h"> 
+    <ScrollView
+		    android:layout_width="fill_parent"
+		    android:layout_height="228dip">
+	<LinearLayout android:orientation="vertical" 
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"> 
+	    <LinearLayout android:layout_marginTop="10dip"
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"> 
+	        <TextView android:id="@+id/shouruleibie" 
+	        	android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content" 
+	        	android:text="@string/shouru_leibie"  
+	        	android:width="80dip" 
+	        	style="@style/fontBlack14"
+	        	android:gravity="right"
+	        	android:paddingRight="5dip"
+	        	android:paddingTop="12dip"/>  
+	         <Spinner android:id="@+id/shouruSpinner" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"
+        		android:drawSelectorOnTop="true"
+				android:minWidth="220dip"
+				android:prompt="@string/chooseshouru_leibie"/>                  
+	    </LinearLayout> 
+
+	    <LinearLayout android:layout_marginTop="10dip"
+	     	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"> 
+	        <TextView android:id="@+id/shourujine" 
+	        	android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content" 
+	        	android:text="@string/jine" 
+	        	android:width="80dip"
+				style="@style/fontBlack14"
+				android:gravity="right"
+				android:paddingRight="5dip"/>
+	        <EditText android:id="@+id/shourunewjine" 
+				android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content" 
+	        	android:numeric="decimal"
+	        	android:hint="@string/editTextJine" 
+	        	android:width="220dip"></EditText> 
+	    </LinearLayout>  
+	     
+	    <LinearLayout android:layout_marginTop="10dip"
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"> 
+	        <TextView android:id="@+id/shoururiqi" 
+	        	android:text="@string/riqi" 
+	        	android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content"
+	        	android:width="80dip"
+	        	android:gravity="right"
+	        	android:paddingRight="5dip"
+				style="@style/fontBlack14"/>	        	
+	        <TextView android:id="@+id/shoururiqiview" 
+		        android:layout_width="wrap_content" 
+		        android:layout_height="wrap_content" 
+		        android:textAppearance="?android:attr/textAppearanceLarge" 
+		        android:width="170dip"
+		        style="@style/fontBlack14"/>
+	        <Button android:id="@+id/shourusetriqi" 
+	        	android:layout_width="wrap_content" 
+	        	android:layout_height="wrap_content" 
+	        	android:text="@string/set"/>      
+	    </LinearLayout>  
+	    
+	    <LinearLayout android:layout_marginTop="10dip"
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"> 
+		    <TextView android:id="@+id/shouruzhaoyao" 
+		    	android:layout_height="wrap_content" 
+		    	android:text="@string/zhaiyao" 
+		    	android:layout_width="fill_parent"
+				style="@style/fontBlack14"
+				android:width="80dip" 
+				android:gravity="right"
+				android:paddingRight="5dip"/>
+		    <EditText android:id="@+id/shouruzhaoyaoedit" 
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"  
+		    	android:lines="5" 
+		    	android:width="220dip" 
+		    	android:gravity="top"></EditText> 
+	    </LinearLayout>
+	</LinearLayout>  
+	</ScrollView>
+	<LinearLayout android:layout_width="wrap_content"    
+   	android:layout_height="wrap_content" 
+   	android:orientation="horizontal"
+    	android:layout_marginTop="4dip">
+    <Button android:id="@+id/fhimgbt"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/fh32_32"
+		style="@style/fontBlack12"
+		android:layout_marginLeft="10dip"/>
+    <Button android:id="@+id/bcimgbt"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:background="@drawable/bc32_32"
+		style="@style/fontBlack12"
+	android:layout_marginLeft="20dip"/>	
+   </LinearLayout>
+</LinearLayout>

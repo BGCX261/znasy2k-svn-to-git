@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="znasy2k.gmail.com.c"
+      android:versionCode="1"
+      android:versionName="1.0">
+      <!-- 关闭应用程序的权限 -->
+<uses-permission android:name="android.permission.RESTART_PACKAGES" />
+      
+    <application android:icon="@drawable/icon72_72" android:label="@string/app_name">
+    	
+    	<provider android:name="znasy2k.gmail.com.util.SjjzbProvider"
+            android:authorities="znasy2k.gmail.com.provider.Sjjzb"/>
+            
+        <activity android:name="Onload"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="GridAnimation"></activity>
+		<activity android:name="Zhichu"></activity>
+		<activity android:name="Zhichu_Create"></activity>
+		<activity android:name="Zhichu_Edit"></activity>
+		<activity android:name="Zhichu_Sreach"></activity>
+		<activity android:name="Zhichu_sreachList"></activity>
+			
+		<activity android:name="Shouru"></activity>
+		<activity android:name="Shouru_Create"></activity>
+		<activity android:name="Shouru_Edit"></activity>
+		<activity android:name="Shouru_Sreach"></activity>
+		<activity android:name="Shouru_sreachList"></activity>
+		
+		<activity android:name="Xtsz"></activity>
+		<activity android:name="SrLeiB"></activity>
+		<activity android:name="SrLeiB_Create"></activity>
+		<activity android:name="SrLeiB_Edit"></activity>
+		
+		<activity android:name="ZcLeiB"></activity>
+		<activity android:name="ZcLeiB_Create"></activity>
+		<activity android:name="ZcLeiB_Edit"></activity>
+		
+		<activity android:name="ZcLeiB_Create_Zhichu"></activity>
+		<activity android:name="SrLeiB_Create_Shouru"></activity>
+		
+		<activity android:name="Guanyu"></activity>
+		
+		<activity android:name="Mxcx"></activity>
+		<activity android:name="Mxcx_xq"></activity>
+		
+		<activity android:name="Login"></activity>
+		<activity android:name="PwdSet"></activity>
+    </application>
+
+
+</manifest> 

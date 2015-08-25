@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="tuichu">退出</string>
+	<string name="bangzhu">帮助</string>
+	<string name="xtsz">系统设置</string>
+	<string name="mxcx">明细查询</string>
+	<string name="mxcxlb">明细查询列表</string>
+	<string name="shouru">收入</string>
+	<string name="shouruhjmh">收入合计：</string>
+	<string name="dyshouruhjmh">当月收入合计：</string>
+	<string name="dyzhichuhjmh">当月支出合计：</string>
+    <string name="zhichu">支出</string>
+    <string name="zhichuhjmh">支出合计：</string>
+    <string name="heji">收支合计：</string>
+    <string name="app_name">手机记账薄</string>
+    <string name="zclb">支出列表</string>
+    <string name="srlb">收入列表</string>
+    <string name="xjzcjl">新建支出记录</string>
+    <string name="xjsrjl">新建收入记录</string>
+    <string name="xgzcjl">修改支出记录</string>
+    <string name="xgsrjl">修改收入记录</string>
+    <string name="cxzcjl">查询支出记录</string>
+    <string name="cxzcjljg">查询支出记录结果</string>
+    <string name="cxsrjl">查询收入记录</string>
+    <string name="cxsrjljg">查询收入记录结果</string>
+    <string name="welcome">欢迎使用手机记账薄</string>
+    <string name="fhzcd">返回主菜单</string>
+    <string name="srleiblb">收入类别列表</string>
+    <string name="xjsrleib">新建收入类别</string>
+    <string name="xgsrleib">修改收入类别</string>
+    <string name="xjzcleib">新建支出类别</string>
+    <string name="xgzcleib">修改支出类别</string>
+    <string name="zcleiblb">支出类别列表</string>
+    <string name="mingcheng">名称</string>
+    <string name="leibie">类别</string>
+    
+    <string name="xuhao">序号</string>
+	<string name="zhichu_leibie">支出类别</string>
+	<string name="shouru_leibie">收入类别</string>
+	<string name="shouzhileibie">收支类别</string>
+	<string name="jine">金额(元)</string>
+	<string name="jine2">金额</string>
+	<string name="riqi">日期</string>
+	<string name="set">设置</string>
+	<string name="zhaiyao">摘要</string>
+	
+    <string name="menu_insert">新建</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_sreach">查询</string>
+    <string name="menu_edit">修改</string>
+    <string name="menu_save">保存</string>
+    <string name="menu_back">返回</string>
+    
+    <string name="choosezhichu_leibie">请选择支出类别</string>
+    <string name="chooseshouru_leibie">请选择收入类别</string>
+    <string name="setriqi">请设置日期</string>
+    
+    <string name="alert_title">提示</string>
+    <string name="alert_content">您确定删除该记录?</string>
+    
+    <string name="alert_save">保存成功。</string>
+    <string name="alert_zhichunewjine">请输入金额。</string>
+    <string name="alert_mingcheng">请输入名称。</string>
+    <string name="alert_xzzclb">请新增支出类别。</string>
+    <string name="alert_xzsrlb">请新增收入类别。</string>
+    <string name="editTextJine">请输入数字,例如:100，0.01，100.01。</string>
+    <string name="sreach_zhi">至</string>
+    
+    <string name="sreach_riqidaxiaotishi">开始日期不能大于结束日期。</string>
+    <string name="sreach_jinedaxiaotishi">开始金额不能大于结束金额。</string>
+    
+    <string name="sjjzbok">确定</string>
+    <string name="sjjzbcancel">取消</string>
+    <string name="guanyu">关于</string>
+    <string name="guanyu1">手机记帐薄 v1.0a</string>
+    <string name="guanyu2">如果您有什么意见和建议请发送邮件给我。</string>
+    <string name="guanyu3">Email：znas@sina.com</string>
+    
+    <string name="yuan">元</string>
+    <string name="alert_dialog_password">密码：</string>
+    <string name="pwdinfo">请输入登录密码</string>
+    <string name="pwdset">请设定登录密码</string>
+    <string name="pwdstart">原密码：</string>
+    <string name="pwdone">输入密码：</string>
+    <string name="pwdtwo">确认密码：</string>
+    <string name="ppwdone">请输入密码。</string>
+    <string name="ppwdtwo">请输入确认密码。</string>
+    <string name="repwd">两次密码不一样，请重新设定密码。</string>
+    <string name="pwderror">您输入的密码错误，请重新输入密码。</string>
+    <string name="ppwdstart">请输入原密码。</string>
+    <string name="pwdstarterror">原密码错误，请检查。</string>
+    <string name="pwdmodif">修改密码</string>
+    <string name="pwdmodifsuc">密码修改成功。</string>
+    
+    <string name="dayu">大于</string>
+    <string name="xiaoyu">小于</string>
+    
+    <string name="bnsc">该类别已使用不能删除。</string>
+    <string name="dl">登　录</string>
+</resources>
